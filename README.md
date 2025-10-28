@@ -39,9 +39,13 @@ Usuários
 Diretórios e Permissões
 
   Diretório       Grupo	 Permissões  Descrição
+  
   /adm		        GRP_ADM	 770	     Acesso exclusivo para administradores
+  
   /ven		        GRP_VEN	 770	     Acesso exclusivo para vendedores
+  
   /sec		        GRP_SEC	 770	     Acesso exclusivo para secretárias
+  
   /publico	      Todos	   777	     Área de compartilhamento geral
 
 🚀 Como Usar
@@ -74,16 +78,16 @@ Execução
 
 📊 Fluxo de Execução
 
-  Criação de Diretórios → 2. Criação de Grupos → 3. Criação de Usuários → 4. Configuração de Permissões → 5. Finalização
+Criação de Diretórios → 2. Criação de Grupos → 3. Criação de Usuários → 4. Configuração de Permissões → 5. Finalização
 
 🛠️ Tecnologias Utilizadas
 
-  . Bash Script
+. Bash Script
 
-  . Linux Users & Groups
+. Linux Users & Groups
 
-  . Permission Management
+. Permission Management
 
-  . OpenSSL (para geração de senhas)
+. OpenSSL (para geração de senhas)
 
   Bons estudos !
