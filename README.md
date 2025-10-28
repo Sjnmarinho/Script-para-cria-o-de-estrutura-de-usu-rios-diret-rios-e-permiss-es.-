@@ -28,22 +28,22 @@ Grupos
 
 Usuários
 
-Grupo      Usuários
-GRP_ADM    carlos, maria, joao
-GRP_VEN    debora, sebastiana, roberto
-GRP_SEC    josefina, amanda, rogerio
+Grupo           Usuários
+GRP_ADM         carlos, maria, joao
+GRP_VEN         debora, sebastiana, roberto
+GRP_SEC         josefina, amanda, rogerio
 
 Diretórios e Permissões
 
-Diretório    Grupo	 Permissões  Descrição
+Diretório       Grupo	    Permissões      Descrição
 
-/adm         GRP_ADM	 770        Acesso exclusivo para administradores
+/adm            GRP_ADM	   770            Acesso exclusivo para administradores
 
-/ven         GRP_VEN	 770        Acesso exclusivo para vendedores
+/ven            GRP_VEN	   770            Acesso exclusivo para vendedores
 
-/sec         GRP_SEC	 770        Acesso exclusivo para secretárias
+/sec            GRP_SEC    770            Acesso exclusivo para secretárias
 
-/publico	   Todos	   777        Área de compartilhamento geral
+/publico         Todos     777            Área de compartilhamento geral
 
 🚀 Como Usar
 
