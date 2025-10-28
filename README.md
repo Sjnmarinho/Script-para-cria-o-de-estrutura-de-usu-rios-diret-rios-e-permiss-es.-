@@ -20,18 +20,18 @@ Automatizar a criação de:
 
 Grupos
 
-. GRP_ADM - Grupo de Administração
+. GRP_ADM  -  Grupo de Administração
 
-. GRP_VEN - Grupo de Vendas
+. GRP_VEN  -  Grupo de Vendas
 
-. GRP_SEC - Grupo de Secretaria
+. GRP_SEC  -  Grupo de Secretaria
 
 Usuários
 
-Grupo		Usuários
-GRP_ADM		carlos, maria, joao
-GRP_VEN		debora, sebastiana, roberto
-GRP_SEC		josefina, amanda, rogerio
+Grupo		   Usuários
+GRP_ADM		 carlos, maria, joao
+GRP_VEN		 debora, sebastiana, roberto
+GRP_SEC		 josefina, amanda, rogerio
 
 Diretórios e Permissões
 
