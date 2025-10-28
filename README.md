@@ -55,29 +55,10 @@ Pré-requisitos
 
 . Git (para clonar o repositório)
 
-Execução
-
-1. Clone o repositório:
-
-git clone https://github.com/Sjnmarinho/Script-para-cria-o-de-estrutura-de-usu-rios-diret-rios-e-permiss-es.-.git
-
-cd linux-projeto-iac
-
-2. Torne o script executável:
-
-chmod +x setup_infra.sh
-
-3. Execute como root:
-
-sudo ./setup_infra.sh
-
-Execução Direta (uma linha)
-
-sudo bash -c "$(curl -fsSL https://github.com/Sjnmarinho/Script-para-cria-o-de-estrutura-de-usu-rios-diret-rios-e-permiss-es.-.git)"
 
 📊 Fluxo de Execução
 
-Criação de Diretórios → 2. Criação de Grupos → 3. Criação de Usuários → 4. Configuração de Permissões → 5. Finalização
+1. Criação de Diretórios → 2. Criação de Grupos → 3. Criação de Usuários → 4. Configuração de Permissões → 5. Finalização
 
 🛠️ Tecnologias Utilizadas
 
