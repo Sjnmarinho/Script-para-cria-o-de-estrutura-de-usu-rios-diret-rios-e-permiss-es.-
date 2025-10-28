@@ -21,7 +21,9 @@ Automatizar a criação de:
 Grupos
 
 . GRP_ADM - Grupo de Administração
+
 . GRP_VEN - Grupo de Vendas
+
 . GRP_SEC - Grupo de Secretaria
 
 Usuários
@@ -34,10 +36,10 @@ GRP_SEC		josefina, amanda, rogerio
 Diretórios e Permissões
 
 Diretório       Grupo	 Permissões  Descrição
-/adm		GRP_ADM	 770	     Acesso exclusivo para administradores
-/ven		GRP_VEN	 770	     Acesso exclusivo para vendedores
-/sec		GRP_SEC	 770	     Acesso exclusivo para secretárias
-/publico	Todos	 777	     Área de compartilhamento geral
+/adm		        GRP_ADM	 770	     Acesso exclusivo para administradores
+/ven		        GRP_VEN	 770	     Acesso exclusivo para vendedores
+/sec		        GRP_SEC	 770	     Acesso exclusivo para secretárias
+/publico	      Todos	   777	     Área de compartilhamento geral
 
 🚀 Como Usar
 
