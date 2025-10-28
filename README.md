@@ -28,10 +28,10 @@ Grupos
 
 Usuários
 
-  Grupo		   Usuários
-  GRP_ADM		 carlos, maria, joao
-  GRP_VEN		 debora, sebastiana, roberto
-  GRP_SEC		 josefina, amanda, rogerio
+  Grupo		     Usuários
+  GRP_ADM		   carlos, maria, joao
+  GRP_VEN		   debora, sebastiana, roberto
+  GRP_SEC		   josefina, amanda, rogerio
 
 Diretórios e Permissões
 
