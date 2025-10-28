@@ -1,53 +1,32 @@
-Script de Automação de Infraestrutura Linux
+📖 Sobre o Projeto
+Este projeto implementa um script de automação Infrastructure as Code (IaC) para criação automatizada de usuários, grupos e estrutura de diretórios em sistemas Linux. Desenvolvido como parte do desafio do curso Linux Experience da DIO.
 
-📋 Descrição do Projeto
+🎯 Objetivos
+✅ Automatizar a criação de estrutura de usuários e grupos
 
-  Este projeto consiste em um script de automação para criação de infraestrutura de usuários, grupos e diretórios em sistemas Linux. O script segue a metodologia Infrastructure as Code (IaC), permitindo a reprodução consistente do ambiente em qualquer máquina virtual.
+✅ Implementar política de permissões por departamento
 
-🎯 Objetivo
+✅ Garantir consistência em múltiplos ambientes
 
-Automatizar a criação de:
+✅ Praticar conceitos de Infrastructure as Code
 
-  . Grupos de usuários por departamento
-
-  . Usuários com associação aos respectivos grupos
-
-  . Diretórios com permissões específicas
-
-  .  Estrutura de permissões organizada
-
-🏗️ Estrutura Criada
-
-Grupos
-
-  . GRP_ADM  -  Grupo de Administração
-
-  . GRP_VEN  -  Grupo de Vendas
-
-  . GRP_SEC  -  Grupo de Secretaria
-
-Usuários
-
-  Grupo		     Usuários
-  
-  GRP_ADM		   carlos, maria, joao
-  
-  GRP_VEN		   debora, sebastiana, roberto
-  
-  GRP_SEC		   josefina, amanda, rogerio
-
-Diretórios e Permissões
-
-  Diretório       Grupo	 Permissões  Descrição
-  
-  /adm		        GRP_ADM	 770	     Acesso exclusivo para administradores
-  
-  /ven		        GRP_VEN	 770	     Acesso exclusivo para vendedores
-  
-  /sec		        GRP_SEC	 770	     Acesso exclusivo para secretárias
-  
-  /publico	      Todos	   777	     Área de compartilhamento geral
-
+🏗️ Arquitetura da Solução
+Estrutura de Grupos
+Grupo	Departamento	Permissões
+GRP_ADM	Administração	Acesso total aos sistemas
+GRP_VEN	Vendas	Acesso a dados comerciais
+GRP_SEC	Secretaria	Acesso a documentos administrativos
+Usuários Criados
+Usuário	Grupo	Departamento
+carlos	GRP_ADM	Administração
+maria	GRP_ADM	Administração
+joao	GRP_ADM	Administração
+debora	GRP_VEN	Vendas
+sebastiana	GRP_VEN	Vendas
+roberto	GRP_VEN	Vendas
+josefina	GRP_SEC	Secretaria
+amanda	GRP_SEC	Secretaria
+rogerio	GRP_SEC	Secretaria
 🚀 Como Usar
 
 Pré-requisitos
